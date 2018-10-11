@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int nilai;
+    cout<<"nilai suhu : ";
+    cin>>nilai;
+    
+    if (nilai<=0)
+     {
+        cout<<"PADAT";
+     }
+    else if (nilai>0 && nilai<100)
+     {
+        cout<<"CAIR";
+     }
+    else
+     {
+        cout<<"GAS";
+     }
+        return 0;
+}
